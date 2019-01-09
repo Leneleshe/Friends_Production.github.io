@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8vdevice-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Мой сайт">
+    <meta name="keywords" content="NIK,Канал,Сайт,_Stiggi_">
+
+    <title>Наш сайт</title>
+
+    <link href="assets/static/favicon.png" rel="shortcut icon">
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78987238-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-78987238-6');
+    </script>
+</head>
+
+<body>
+
+    <div class="left">
+        <div class="left-content animate-bottom">
+            <h1 style="font-size: 110px">Наш сайт</h1>
+            <h3 style="margin-top: 10px">Привет, друг!</h3>
+            <h1 style="margin-top: 25px">
+                <a href="https://www.youtube.com/channel/UClCMuEvs_kbd6XIhfc8_mtQ" class="button">NIK</a>
+                <hr class="vertical">
+                <a href="https://www.youtube.com/channel/UCUJCw1SiNjVDltBQBKnybSg" class="button">_Stiggy_</a>
+            </h1>
+        </div>
+    </div>
+
+    <div class="right">
+
+        <div id="loader" class="loader">
+        </div>
+
+        <div id="right-content" class="right-content animate-bottom" style="display: none;">
+
+            <section id="features" class="section">
+                <h1 class="section-header">Кто мы такие?</h1>
+                <hr class="content">
+                <div class="card-feature shadow" style="width: 18rem;display:inline-block;margin-top:5px;">
+                    <h5><i class="fa fa-copyright" style="font-size:30px; margin-bottom: 15px;"></i></h5>
+                    <p>Ютуберы</p>
+                </div>
+                <div class="card-feature shadow" style="width: 18rem;display:inline-block;margin-top:5px;">
+                    <h5><i class="fa fa-paint-brush" style="font-size:55px;margin-bottom: 15px;"></i></h5>
+                    <p>Дизайнеры</p>
+                </div>
+                <div class="card-feature shadow" style="width: 18rem;display:inline-block;margin-top:5px;">
+                    <h5><i class="fa fa-user-circle" style="font-size:30px;margin-bottom: 15px;"></i></h5>
+                    <p>Люди</p>
+                </div>
+            </section>
+
+            <section id="videos" class="section">
+                <h1 class="section-header">NIK</h1>
+                <hr class="content">
+                <div class="video-image shadow">
+                    <img id="video-1-image" src="https://i.ibb.co/pb9ZTbZ/image.png" width="400px"
+                        height="250px">
+                    <span onClick="playVideo(this, 'video-1','video-1-image');"></span>
+                    <iframe id="video-1" src="https://www.youtube.com/embed/P-28mM2W5Pw" frameborder="0" width="400px"
+                        height="250px" style="display: none" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="video-image shadow">
+                    <img id="video-2-image" src="https://i.ibb.co/j3pP6M6/image.png" width="400px"
+                        height="250px" />
+                    <span onClick="playVideo(this, 'video-2','video-2-image');"></span>
+                    <iframe id="video-2" src="https://www.youtube.com/embed/3oQIKBp4LkI" frameborder="0" width="400px"
+                        height="250px" style="display: none" allow="autoplay" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="videos" class="section">
+                <h1 class="section-header">_Stiggy_</h1>
+                <hr class="content">
+                <div class="video-image shadow">
+                    <img id="video-3-image" src="https://i.ibb.co/z2fg3MP/Aki-f-LMr-Xg-E.jpg" width="400px"
+                        height="250px">
+                    <span onClick="playVideo(this, 'video-3','video-3-image');"></span>
+                    <iframe id="video-3" src="https://www.youtube.com/embed/tdSc-0rR2nI" frameborder="0" width="400px"
+                        height="250px" style="display: none" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="video-image shadow">
+                    <img id="video-4-image" src="https://i.ibb.co/0ny6RkR/Yze-Nw-LNIn-Og.jpg" width="400px"
+                        height="250px" />
+                    <span onClick="playVideo(this, 'video-4','video-4-image');"></span>
+                    <iframe id="video-4" src="https://www.youtube.com/embed/WWQ0v100bYE" frameborder="0" width="400px"
+                        height="250px" style="display: none" allow="autoplay" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section id="team" class="section">
+                <h1 class="section-header">Наша команда</h1>
+                <hr class="content">
+
+                <div class="card">
+                    <h3 class="card-title">NIK</h3>
+                    <p class="card-desc">Ютубер</p>
+                    <div class="card-social">
+                        <a class="footer-icon youtube" target="_blank" href="https://www.youtube.com/channel/UClCMuEvs_kbd6XIhfc8_mtQ">
+                            <i class="fab fa-youtube fa-1x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">_Stiggy_</h3>
+                    <p class="card-desc">Ютубер</p>
+                    <div class="card-social">
+                        <a class="footer-icon youtube" target="_blank" href="https://www.youtube.com/channel/UCUJCw1SiNjVDltBQBKnybSg">
+                            <i class="fab fa-youtube fa-1x"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="footer" class="section footer">
+                <h4>&copy; 2019 NIK & Stiggy</h4>
+                <hr class="footer">
+            </section>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/global.js"></script>
+
+</body>
+
+</html>
